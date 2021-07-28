@@ -14,11 +14,11 @@ function style() {
 
 function watch () {
     browserSync.init({
-      server: {
+        server: {
           baseDir: './'
-      }  
+        }  
     })
-    gulp.watch('./scss/**/*.scss', style);
+    gulp.watch('./css/**/*.scss', style);
     gulp.watch('./*.html').on('change', browserSync.reload);
 }
 
