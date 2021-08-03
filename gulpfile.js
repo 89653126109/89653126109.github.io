@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const browserSync = require('browser-sync').create();
-const critical = require('critical').stream;
+// const critical = require('critical').stream;
 const cleanCSS = require('gulp-clean-css');
 
 function style() {
