@@ -1,5 +1,5 @@
 @import url('./normalize.css');
-// @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap');
 
 //=== MIXIN ===
 @mixin roboto {
@@ -98,15 +98,15 @@ $color-divider: $color-gray-100;
 //=== / VARIABLES ===
 
 //=== COMMON ===
-html {
-    @media (max-width: $breakpoint-md-max) {
-        font-size: 14px; 
-    }
+// html {
+//     @media (max-width: $breakpoint-md-max) {
+//         font-size: 14px; 
+//     }
 
-    @media (max-width: $breakpoint-sm-max) {
-        font-size: 10px;
-    }
-}
+//     @media (max-width: $breakpoint-sm-max) {
+//         font-size: 10px;
+//     }
+// }
 
 body {
     @include roboto;
