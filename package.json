@@ -10,7 +10,9 @@
     "gulp-sass": "^4.1.0"
   },
   "devDependencies": {
+    "critical": "^4.0.1",
     "gulp-clean-css": "^4.3.0",
+    "gulp-cleancss": "^0.2.2",
     "gulp-stylelint": "^13.0.0"
   },
   "scripts": {
