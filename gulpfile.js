@@ -23,21 +23,5 @@ function watch () {
     gulp.watch('./js/**/*.js').on('change', browserSync.reload);
 }
 
-// function taskCritical () {
-//     return src('./*.html')
-//         .pipe(
-//             critical({
-//                 base: './',
-//                 inline: true,
-//                 css: ['css/style.css'],
-//             })
-//         )
-//         .on('error', err => {
-//             log.error(err.message);
-//         })
-//         .pipe(dest('./'))
-// }
-
-// exports.critical = taskCritical;
 exports.style = style;
 exports.watch = watch;
